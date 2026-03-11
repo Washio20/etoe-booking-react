@@ -305,7 +305,7 @@ export default function RoomSelection() {
                   sizes="64px"
                 />
               </div>
-              <div className="flex-grow px-3 text-left truncate">
+              <div className="flex-grow px-3 text-left break-words min-w-0">
                 <span className="font-zen-kaku-gothic text-base font-bold tracking-[0.06em] text-[#444444]">
                   {room.name}
                 </span>
